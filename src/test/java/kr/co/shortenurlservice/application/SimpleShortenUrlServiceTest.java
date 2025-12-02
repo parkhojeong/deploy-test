@@ -27,6 +27,7 @@ class SimpleShortenUrlServiceTest {
         String originalUrl = simpleShortenUrlService.getOriginalUrlByShortenUrlKey(shortenUrlKey);
 
         assertTrue(originalUrl.equals(expectedOriginalUrl));
+        assertTrue(null);
     }
 
     // 존재하지 않는 단축 URL을 조회하는 경우는 여러분들이 테스트 작성 해보기
