@@ -80,7 +80,7 @@ public class SimpleShortenUrlService {
         }
 
         // throw new LackOfShortenUrlKeyException();
-        throw new RuntimeExeption();
+        throw new RuntimeException();
     }
 
 }
